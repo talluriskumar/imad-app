@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/Andhra Bank', function (req, res) {
+app.get('/AndhraBank', function (req, res) {
   res.send('Hey! This is for AndhraBank.in');
 });
 
